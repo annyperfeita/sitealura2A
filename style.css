@@ -122,10 +122,10 @@ body {
     margin: 5em 3em;
 }
 .lista__link a:hover{
-    color: var(--botao-azul);
+    color: rgb(255, 7, 160);
 }
 .lista__link a:active{
-    color: rgb(255, 7, 255);
+    color: rgb(255, 7, 160);
 }
 .container__botao:hover{
     background-color: var(--botao-azul-efeito);
@@ -133,4 +133,7 @@ body {
 }
 .lista__item:active{
 font-size: 36px;
+}
+.lista__item:hover{
+    color: pink
 }
